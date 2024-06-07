@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+        table,th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding:5px;
+            text-align: left;
+        }
+        caption{
+            text-align: center;
+        }
+        button{
+            background-color: rgba(249, 8, 217, 0.621);
+            color: azure;
+          padding-right: 20px;
+          padding-top: 7px;
+          padding-bottom: 7px;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <form style="border: 0.8px solid black;" >
+                    <br>
+            <label for="one" >Name:</label>
+            <input type ="text" id="one" placeholder="Enter your name"  style="background-color: rgb(189, 251, 246); "><br><br>
+            <label for="two">Batch:</label>
+            <input type="text" id="two" placeholder="Enter your batch name" required>
+          <table style="width: 100%;">
+            <caption><h3>Student Information</h3></caption>
+            <tr >
+                <th rowspan="2">Student ID</th>
+                <th colspan="2" >Name</th>
+                <th rowspan="2">Age</th>
+                <th rowspan="2">Grade</th>
+                <th rowspan="2">Email</th>
+            <tr> 
+                 <th>First Name</th>
+                 <th>Last Name</th>
+            </tr>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alice</td>
+                <td>Johnson</td> 
+                <td>20</td>
+                <td>A</td>
+                <td>alice@example.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bob</td>
+                    <td>Smith</td>
+                    <td>22</td>
+                    <td>B</td>
+                    <td>bob@example.com</td> 
+                </tr>
+                <tr>
+                    <td rowspan="2">3</td>
+                    <td>Charlie</td>
+                    <td>Brown</td>
+                    <td>21</td>
+                    <td>A</td>
+                    <td>charlie@example.com</td>
+                </tr>
+                <tr>
+                        <td>David</td>
+                        <td>Wilson</td>
+                        <td>23</td>
+                        <td>B</td>
+                        <td>david@example.com</td>
+                </tr>
+                 <tr>
+                        <td>4</td>
+                        <td>Eva</td>
+                        <td>Adams</td>
+                        <td>19</td>
+                        <td>A</td>
+                        <td>eva@example.com</td>
+                </tr>
+                </table>
+                <br>
+                <br>
+                <label for="five">Add File:</label>
+                <input type="file" id="five">
+                <br>
+                <br>
+                <button><b>Submit</b></button>
+                <P style="text-align: justify; color:rgb(126, 5, 239) ;"><b>Clear Form</b></P>
+            </form>
+                
+              
+            </body>
+            </html>

@@ -1,0 +1,59 @@
+/* Types Of Selectors */
+/* For selecting from start  of attribute*/
+/* a[href^='http']{
+    background-color: aquamarine;
+}
+/* For selecting from end of attribute*/
+/* a[href$='com']{
+    background-color: blueviolet;
+
+} */
+/* For selecting from anywhere of attribute*/
+/* a[href*='google']{
+    background-color: rgb(42, 165, 114);
+} */ */
+/* Universal Selector */
+/* *{
+    background-color: red;
+} */
+/* body{
+    background-color: blue;
+} */
+/* div p{
+    background-color: rgb(208, 62, 234);
+}
+
+ol > li {
+    background-color: rgb(233, 207, 15);
+} */
+/*  Pseudo Class Selector*/
+/* li:first-child{
+    background-color: rgb(21, 255, 0);
+} */
+/* div{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    transition:2s;
+} */
+/* Hovere is used to change state or any property when we click on it */
+/* div:hover{
+    background-color: blueviolet;
+    border-radius: 50%;
+} */
+/* To select nth number of list elements where n can be any number from 1 to n */
+/* li:nth-of-type(2){
+    background-color: palevioletred;
+} */
+/* To select even number of list elements */
+li:nth-of-type(even){
+    background-color: rgb(21, 183, 233);
+}
+
+/* To select odd number of list elements */
+/* li:nth-of-type(odd){
+    background-color: rgb(233, 21, 138);
+} */
+#jiya:hover{
+    background-color: royalblue;
+}
