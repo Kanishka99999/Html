@@ -1,0 +1,55 @@
+<!-- Priority is more of id
+  * least priority-->
+  <!-- Absolute units like px,mm,cm,etc
+   
+   Relative Units like percentage,vh(viewport height),vw(viewport port),rem,em
+   complete screen is called viewport 
+   by default body fonts are 16px
+   em will take relative to current parent
+   while rem will take relative to main body ke relative-->
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #parent{
+            height: 100vh; */
+            /* 1oovh means 100% of viewport screen */
+            /* width: 100vw;
+            background-color: aqua; */
+        /* }
+        #child {
+            height: 50%;
+             /* 50 % of 200 px =100px  */
+            /* width: 50%;
+            background-color: rgb(226, 43, 49);
+        }   */
+        li {
+            font-size: 2rem;
+            /* Main parent ka double hoga that is html ka default font=16px .So */
+        }
+        ul{
+            font-size: 2em;
+        }
+    </style>
+   </head>
+   <body>
+    <div id="parent">
+        <div id="child">
+            
+        </div>
+    </div>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <ul>
+            <li>2.1</li>
+            <li>2.2</li>
+            <ul><li>2.2.1</li></ul>
+        </ul>
+        <li>3</li>
+    </ol>
+   </body>
+   </html> 
